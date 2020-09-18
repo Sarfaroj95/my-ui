@@ -1,0 +1,183 @@
+        .graybg {
+            background-color: #f1f1f2;
+            display: flex;
+            justify-content: center;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        .bluebg {
+            background-color: #0089D2;
+            display: flex;
+            justify-content: center;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        .blueText {
+            color: #0089D2;
+        }
+
+        .whiteText {
+            color: #fff;
+
+        }
+
+        .card-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #FF7200;
+            text-align: center;
+        }
+
+        .card-text {
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .logo {
+            margin-top: 20px;
+            width: 140px;
+        }
+
+        .MainDiv {
+            width: 100%;
+        }
+
+        .mainPart {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .img {
+            margin-top: 40px;
+            height: 250px;
+        }
+
+        .htext {
+            /* font-family: 'Merriweather Sans', sans-serif;
+            font-family: 'Roboto', sans-serif; */
+            font-family: 'Archivo Black', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            font-size: 42px;
+            font-weight: 900;
+            margin-top: 10px;
+            text-transform: capitalize;
+        }
+
+        .textlg {
+            font-size: 20px;
+            font-weight: 500;
+            margin-top: 20px;
+        }
+
+        .textsm {
+            font-size: 16px;
+            font-weight: 500;
+            margin-top: 20px;
+
+        }
+
+        .textsmUl {
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+        }
+
+        .button {
+            margin-top: 10px;
+        }
+
+        .card {
+            background-color: #f1f1f2;
+            border: none;
+            border-radius: 20px;
+            width: 20rem;
+            padding: 20px;
+        }
+
+        .button {
+            background-color: #FF7200;
+            /* Green */
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .button1 {
+            padding: 10px 24px;
+          box-shadow: 14px 14px 19px -11px rgba(133,133,133,1);
+        }
+
+        .W50 {
+            width: 50%;
+        }
+
+        .card-center {
+            display: flex;
+            justify-content: center;
+        }
+
+        @media only screen and (max-width: 500px) {
+
+            .W50 {
+                width: 100%;
+            }
+
+            .logo {
+                margin-top: 20px;
+                padding-left: 10px;
+            }
+
+            .MainDiv {
+                width: 100%;
+            }
+
+            .card {
+                background-color: #f1f1f2;
+                border: none;
+                border-radius: 20px;
+                width: 16rem;
+                padding: 10px;
+            }
+
+            .mainPart {
+                display: flex;
+                justify-content: space-around;
+                margin-top: 5%;
+                padding-left: 20px;
+            }
+
+            .img {
+                margin-top: 20px;
+                height: 230px;
+            }
+
+            .htext {
+                /* font-family: 'Merriweather Sans', sans-serif;
+                font-family: 'Roboto', sans-serif; */
+                  font-family: 'Archivo Black', sans-serif;
+                  font-family: 'Roboto', sans-serif;
+                font-size: 30px;
+                font-weight: 900;
+                margin-top: 0px;
+                line-height: 40px;
+            }
+
+            .textlg {
+                font-size: 18px;
+                font-weight: 500;
+            }
+
+            .textsm {
+                font-size: 14px;
+                font-weight: 600;
+            }
+
+        }
