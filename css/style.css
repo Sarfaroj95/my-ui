@@ -149,6 +149,25 @@ opacity: 1;
             box-shadow: 7px 7px 6px #00000029;
             opacity: 1;
         }
+         .buttonSubmit {
+            background-color: #0089D2;
+            
+            /* Green */
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+             padding: 10px 14px;
+            background: #0089D2 0% 0% no-repeat padding-box;
+            box-shadow: 7px 7px 6px #00000029;
+            opacity: 1;
+            margin-top: 10px;
+        }
 
         .button1 {
             margin-left: 35px;
@@ -267,6 +286,7 @@ opacity: 1;
              .formSec{
                padding-left: 40px;
                padding-right: 40px;
+               padding-top: 10px;
              }
              .tounch{
                font-size: 22px;
@@ -275,7 +295,7 @@ opacity: 1;
                text-align: center;
              }
              .formDiv{
-               padding-top: 40px;
+               padding-top: 30px;
              }
              .form-control{
                border-radius: 5px;
