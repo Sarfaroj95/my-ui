@@ -288,6 +288,12 @@ opacity: 1;
                padding-right: 40px;
                padding-top: 10px;
              }
+               .formSec2{
+              
+               padding-left: 20px;
+               padding-right: 20px;
+             }
+
              .tounch{
                font-size: 22px;
                font-weight: 700;
@@ -302,7 +308,7 @@ opacity: 1;
              }
              .mheader{
                text-align: center;
-               padding-top: 20px;
+               padding-top: 30px;
              }
              .mtitle{
                text-align: center;
@@ -311,7 +317,8 @@ opacity: 1;
                color: #0089D2;
                text-transform: capitalize;
              }
-             .modal{padding: 20px;
+             .modal{
+               padding: 20px;
             border-radius: 40px;}
       
   
