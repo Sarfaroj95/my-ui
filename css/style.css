@@ -217,14 +217,54 @@ opacity: 1;
             }
             .fourText{
               text-align: center;
-font: normal normal medium 18px/25px Poppins;
-font-size: 18px;
-letter-spacing: 0px;
-color: #F6F5F5;
-opacity: 1;
+              font: normal normal medium 18px/25px Poppins;
+              font-size: 18px;
+              letter-spacing: 0px;
+              color: #F6F5F5;
+              opacity: 1;
             }
-             
+             .fiveDiv{
+               margin-top: 60px;
+               margin-bottom: 60px;
+             }
+             .fiveleft{
+               margin-left: 36px;
+             }
            
+             .lastDec{
+               font-size: 18px;
+               font-weight: 500 !important;
+               text-align: left;
+             font-family: 'Poppins';
+               font-family: 'Poppins', sans-serif;
+               line-height: 25px;
+              letter-spacing: 0px;
+              color: #00334E;
+              opacity: 1;
+             }
+
+             .lastMsg{
+               font: normal normal 900 18px/27px Poppins;
+                letter-spacing: 0px;
+                color: #0089D2;
+                opacity: 1;
+             }
+             .sixDiv{
+               margin-top: 30px;
+               background: #ECECEC 0% 0% no-repeat padding-box;
+               padding: 10px;
+               padding-left: 36px;
+               margin-bottom: 20px;
+opacity: 1;
+             }
+             .footerText{
+               font-size: 10px;
+             
+               letter-spacing: 0px;
+color: #828282;
+opacity: 1;
+               
+             }
       
   
 
