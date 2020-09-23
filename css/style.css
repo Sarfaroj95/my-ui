@@ -56,7 +56,7 @@ opacity: 1;
     .dFlex{
        margin-left: 36px;
       margin-right: 20px;
-      margin-top: -20px;
+
     }
   
 
@@ -188,13 +188,19 @@ opacity: 1;
           padding-bottom: 60px;
             margin-left: 36px;
         }
+          .secondDivIn{
+          padding-top: 90px;
+          padding-bottom: 60px;
+            margin-left: 36px;
+        }
         .secDiv{
           margin-left: -10px;
           padding-top: 20px;
         }
         .thirdDiv{
           text-align: center;
-          margin-bottom: 25px;
+          padding-top: 30px;
+          padding-bottom: 30px;
         }
          .card-center {
             display: flex;
@@ -301,7 +307,7 @@ opacity: 1;
                text-align: center;
              }
              .formDiv{
-               padding-top: 30px;
+               padding-top: 40px;
              }
              .form-control{
                border-radius: 5px;
@@ -323,6 +329,106 @@ opacity: 1;
                padding: 20px;
                border-radius: 40px;
               }
+              .active{
+                background-color:  #FF7200 !important;
+                border-radius: 30px;
+              }
+              .carousel{
+                margin: 0px !important;
+                padding: 0px !important;
+              }
+              .carousel-inner{
+                background-color: transparent !important;
+                border-radius: 20px;
+              }
+            
+  .carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    border: 1px solid  #FF7200 !important;
+    border-radius: 10px;
+    margin: 3px !important;
+    
+}
+              
+              /* css slider */
+              .slidshowContainer {
+  position: relative;
+  overflow: hidden;
+  margin: 50px 0 75px;
+  width: 100%;
+  height: 500px;
+}
+
+.imageSlides {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  z-index: -1;
+}
+
+/* add 'visible' class via Javascript */
+.visible {
+  opacity: 1;
+}
+
+.slideshowArrow {
+  font-size: 7em;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.slideshowArrow:hover {
+  opacity: 0.75;
+}
+
+#leftArrow {
+  position: absolute;
+  left: 4%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#rightArrow {
+  position: absolute;
+  right: 4%;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+.slideshowCircles {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.circle {
+  display: inline-block;
+  margin-left: 3px;
+  margin-right: 3px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: solid 2px rgba(255, 255, 255, 0.5);
+  transition: 1s ease-in-out;
+}
+
+.dot {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: solid 2px rgba(255, 255, 255, 0.5);
+}
       
   
 
@@ -334,6 +440,10 @@ opacity: 1;
 
  body{
    background-image: url('../assets/bg.jpg');
+   background-image: cover;
+ }
+ .body1{
+    background-image: url('../assets/bg-1.jpg');
    background-image: cover;
  }
 
